@@ -12,7 +12,7 @@ After reviewing the typical free solutions (Selenium, Cypress, etc.) I settled o
   * Created by Microsoft in 2020
 * Had solid documentation and active community
 * Supported TypeScript
-  * The project was using TyepScript and I felt more comfortable keeping the language consistant between logic and testing
+  * My project was using TyepScript and I felt more comfortable keeping the language consistant between logic and testing
 
 While I am not a QA tester, I feel it's useful for me to be familiar with the various technologies used so that I can assist in making decisions that are in the best interest of the client and keep the project on schedule. So that I don't get too rusty, I will use Playwright tests for this site as well!
 
@@ -22,3 +22,4 @@ To Do:
 - [ ] Create tests for all intra-site links
 - [ ] Create tests for socials
 - [ ] Add to GitHub Actions for automated testing upon commit
+
