@@ -5,7 +5,7 @@ categories: [development]
 tags: [testing,jekyll,playwright]  #tag names should always be lowercase
 comments: false
 ---
-On a prior client project, I joined the project after it was already underway. As a project manager, one of the first things I do is make sure I understand the scope, the work tasks, and their estimates so I can manage to them.  This project did not include QA time or resources which was a huge oversight IMO. Due to the iterative deployment strategy, I knew that regression testing would be a bottleneck for us if testing was not automated. So I took up the challenge of writing automated tests myself!
+On a prior client project, I had joined the project after it was already underway (and in trouble). As a project manager, one of the first things I do is make sure I understand the scope, the work tasks, and their estimates.  This project did not include QA time or resources which was a huge oversight IMO. Due to the iterative deployment strategy, I knew that regression testing would be a bottleneck for us if testing was not automated. So I took up the challenge of writing automated tests myself!
 
 After reviewing the typical free solutions (Selenium, Cypress, etc.) I settled on Playwright for a few reasons:
 * Created and sponsored by a large organization
@@ -22,4 +22,3 @@ To Do:
 - [ ] Create tests for all intra-site links
 - [ ] Create tests for socials
 - [ ] Add to GitHub Actions for automated testing upon commit
-
