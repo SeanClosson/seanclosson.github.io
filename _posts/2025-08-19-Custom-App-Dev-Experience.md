@@ -1,6 +1,6 @@
 ---
 title: "Custom AppDev Experience"
-date: 2025-08-19 10:36:00 -0600
+date: 2025-08-19 08:36:00 -0600
 author: Sean Closson
 categories: [devlopment]
 tags: [development, project management, cv]
