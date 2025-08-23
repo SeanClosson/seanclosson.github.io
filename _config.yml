@@ -233,3 +233,6 @@ jekyll_admin:
     - datafiles
     - configuration
   homepage: "pages"
+
+google_analytics:
+  id: "G-1VQ08DD0YH" # replace with your actual Google Analytics Measurement ID
