@@ -18,7 +18,7 @@ Use an inexpensive IoT camera to detect if a person is wearing a hard hat or not
 * Create synthetic data to train ML model
   * Use Unreal Engine to create virtual people (MetaHumans) with and without hard hats
   * Program camera movements to take pictures for training data
-* IoT device must only message result, cannot offload
+* IoT device must only message result, cannot offload detection
   * Use MQTT to send pass/fail/noop messages
   * Model must run on ESP32 device
 * Must use GCP for model training
@@ -34,11 +34,14 @@ Use an inexpensive IoT camera to detect if a person is wearing a hard hat or not
          1. program sequence for crane movement over 150 frames
    2. Capture images
       1. Captured 150 frames (images) over three passes (low, medium, high crane height) per MetaHuman (3) with hard hat and again without (2)
-      2. Resulting dataset 2,700 images
+      2. Resulting in 2,700 images
       3. Rename files for easy classification
 2. Train model using GCP
-   1. Upload to GCP
+   1. Create dataset "IsWearingHardHat"
+      1. Created two lables, "hardhat" and "nohat"
+   2. Upload to GCP
       1. Uploaded in batches of 500
-      2. Labled for classification (versus object detection) as "nohat" and "hardhat
-   2. Using VertexAI, set a 10 hour training budget for training an edge AI model
+      2. Labled for classification (versus object detection) as "nohat" and "hardhat"
+   3. Using VertexAI and AutoML, set a 10 hour training budget for training an edge AI model (5.6MB higher accuracy)
          
+
