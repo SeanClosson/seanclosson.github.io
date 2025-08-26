@@ -8,7 +8,7 @@ excerpt: "Practical edge AI on cheap IoT hardware"
 layout: post
 ---
 # Overiew
-In 2024, I built a POC IoT device that would detect of a person was wearing a hard hat or not. It would then send a message via MQTT to another device that would display "GO" if they were wearing a hard hat or "STOP" if they were not.  I loved this little project as it touched on AI/ML, IoT, and I learned some new technologies like MQTT. I've wanted to write up a post on this project, but I decided to redo the project itself and write that up here.  This post will be updated as I go and potentially be split into multiple posts.  If so, I will link them.
+In 2024, I built a POC IoT device that would detect if a person was wearing a hard hat or not. It would then send a message via MQTT to another device that would display "GO" if they were wearing a hard hat or "STOP" if they were not.  I loved this little project as it touched on AI/ML, IoT, and I learned some new technologies like MQTT. I've wanted to write up a post on this project, but I decided to redo the project itself and write that up here.  This post will be updated as I go and potentially be split into multiple posts.  If so, I will link them.
 
 # The Plan
 ## Project Brief
@@ -43,5 +43,9 @@ Use an inexpensive IoT camera to detect if a person is wearing a hard hat or not
       1. Uploaded in batches of 500
       2. Labled for classification (versus object detection) as "nohat" and "hardhat"
    3. Using VertexAI and AutoML, set a 10 hour training budget for training an edge AI model (5.6MB higher accuracy)
+      1. model failed to train the first two attempts, but for the 3rd time I set it to the 3.2MB size
+      2. Download the tflite model file
+3. Deploy the model to ESP32 IoT device
+   1. 
          
 
