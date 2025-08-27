@@ -5,7 +5,7 @@ categories: [Projects]
 tags: [esp32, esphome, home assistant, grafana, automation]
 ---
 
-# ESP32 Sensor Devices in Home Assistant
+
 Lately, I’ve been experimenting with ESP32 boards and ESPHome to bring smarter environmental control into an insulated storage area in our garage. This post walks through how I set up temperature and humidity sensors, automated a dehumidifier, and visualized everything with Grafana, all using Home Assistant.
 ## Hardware & Setup
 I’m using an ESP32 microcontroller paired with a DHT22 sensor to monitor temperature and humidity. The ESP32 runs ESPHome, which makes it easy to define sensor behavior in YAML and integrate directly with Home Assistant over Wi-Fi.
