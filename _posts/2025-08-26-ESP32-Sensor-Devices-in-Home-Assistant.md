@@ -25,7 +25,7 @@ sensor:
 Once flashed and connected, the ESP32 reports sensor data to Home Assistant automatically.
 
 ## Automation: Humidity-Triggered Dehumidifier
-To act on the data, I set up an automation that turns on a smart plug when humidity rises above 60%. The plug powers a dehumidifier, and turns off when humidity drops below the threshold.
+To act on the data, I set up an automation that turns on a smart plug when humidity rises above 60%. The plug powers a "dumb" dehumidifier, and turns off when humidity drops below the threshold.
 Here’s the Home Assistant automation:
 ```YAML
 alias: "Dehumidifier Control"
