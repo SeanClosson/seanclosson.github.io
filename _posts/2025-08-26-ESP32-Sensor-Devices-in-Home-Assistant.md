@@ -1,7 +1,7 @@
 ---
 title: "ESP32 Sensor Devices in Home Assistant"
 date: 2025-08-26 14:00:00 -0600
-categories: [Projects]
+categories: [projects]
 tags: [esp32, esphome, home assistant, grafana, automation]
 ---
 
@@ -15,9 +15,9 @@ sensor:
   - platform: dht
     pin: GPIO4
     temperature:
-      name: "Living Room Temperature"
+      name: "Storage Temperature"
     humidity:
-      name: "Living Room Humidity"
+      name: "Storage Humidity"
     model: DHT22
     update_interval: 30s
 ```
