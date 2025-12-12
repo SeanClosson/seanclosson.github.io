@@ -4,7 +4,8 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-
+### Expert Consulting Services
+[Hire me](https://www.humiint.com/ii/693c69ab-9dbe-4c2c-bb1d-6748ec8f1857)
 
 ### Professional Summary
 
@@ -81,6 +82,4 @@ Delivery leader with 20+ years building game-changing solutions across energy, h
 - Launched automation in support workflows, unlocking 10% additional capacity for new client projects
 - Cultivated a team-based culture and formalized change-control processes, paving the way for larger IT system rollouts
 
-**Education**
 
-- **University of Alaska Anchorage** \- Bachelor of Business Administration, Management Information Systems
